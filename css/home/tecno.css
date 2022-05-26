@@ -1,0 +1,79 @@
+.tecno-bg {
+  background: var(--color-11);
+  box-shadow: inset 0 80px var(--color-0), inset 0 -80px var(--color-0);
+}
+
+.tecno {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecno-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tecno-container {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.tecno-container > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecno-container h2 {
+  margin-bottom: 32px;
+}
+
+.tecno-container > p {
+  margin-bottom: 20px;
+}
+
+.tecno-container a {
+  margin-bottom: 80px;
+}
+
+.tecno-benefits {
+  display: flex;
+  gap: 40px;
+}
+
+.tecno-benefits h3 {
+  width: max-content;
+  margin-bottom: 8px;
+}
+
+.tecno-benefits img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .tecno-bg {
+    box-shadow: initial;
+  }
+  .tecno {
+    grid-template-columns: 1fr;
+  }
+  .tecno-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecno-img {
+    display: none;
+  }
+  .tecno-container a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecno-benefits {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,79 @@
+:root {
+  /* Yellow scale */
+  --primary-0: #ffbb00;
+  --primary-1: #e4a30b;
+  --primary-2: #a66f00;
+  --primary-3: #664400;
+  --primary-4: #332200;
+
+  /* Grey scale */
+  --color-0: #ffffff;
+  --color-1: #f7f7f7;
+  --color-2: #ededed;
+  --color-3: #dedede;
+  --color-4: #cccccc;
+  --color-5: #b2b2b2;
+  --color-6: #9c9c9c;
+  --color-7: #717171;
+  --color-8: #595959;
+  --color-9: #404040;
+  --color-10: #2e2e2e;
+  --color-11: #111111;
+  --color-12: #000000;
+}
+
+/* Class */
+.primary-0 {
+  color: var(--primary-0);
+}
+.primary-1 {
+  color: var(--primary-1);
+}
+.primary-2 {
+  color: var(--primary-2);
+}
+.primary-3 {
+  color: var(--primary-3);
+}
+.primary-4 {
+  color: var(--primary-4);
+}
+.color-0 {
+  color: var(--color-0);
+}
+.color-1 {
+  color: var(--color-1);
+}
+.color-2 {
+  color: var(--color-2);
+}
+.color-3 {
+  color: var(--color-3);
+}
+.color-4 {
+  color: var(--color-4);
+}
+.color-5 {
+  color: var(--color-5);
+}
+.color-6 {
+  color: var(--color-6);
+}
+.color-7 {
+  color: var(--color-7);
+}
+.color-8 {
+  color: var(--color-8);
+}
+.color-9 {
+  color: var(--color-0);
+}
+.color-10 {
+  color: var(--color-10);
+}
+.color-11 {
+  color: var(--color-11);
+}
+.color-12 {
+  color: var(--color-12);
+}
