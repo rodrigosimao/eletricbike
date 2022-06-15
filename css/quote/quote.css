@@ -33,7 +33,8 @@
 
 .quote-product {
   border-radius: 5px 0 0 5px;
-  background: var(--color-12);
+  background: var(--color-12) url('../../img/dec/bottom-left.svg') no-repeat
+    bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -88,7 +89,7 @@
 }
 
 .quote-product input:focus + label {
-  box-shadow: 0 0 0 2px var(--color-p1);
+  box-shadow: 0 0 0 2px var(--primary-0);
   border-color: var(--color-12);
 }
 
@@ -108,7 +109,8 @@
 
 .quote-info {
   border-radius: 0 5px 5px 0;
-  background: var(--color-0);
+  background: var(--color-0) url('../../img/dec/bottom-right.svg') no-repeat
+    bottom 20px right 20px;
 }
 
 .quote-content {
@@ -163,6 +165,7 @@
   }
   .quote-product {
     border-radius: 5px 5px 0 0;
+    background: var(--color-12);
   }
   .quote-info {
     border-radius: 0 0 5px 5px;
