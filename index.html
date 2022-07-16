@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <title>Bikcraft - Bicicletas Elétricas</title>
+
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -42,11 +44,11 @@
   <main class="intro-bg">
     <div class="intro container">
       <div class="intro-content">
-        <h1 class="font-1-xxl color-0">Bicicletas feitas sob medida<span class="primary-0">.</span></h1>
-        <p class="font-2-l color-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade co a Bikcraft.</p>
-        <a class="btn" href="./bikes.html">Escolha a sua</a>
+        <h1 class="font-1-xxl color-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="primary-0">.</span></h1>
+        <p class="font-2-l color-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade co a Bikcraft.</p>
+        <a class=" btn fadeInLeft" data-anime="600" href=" ./bikes.html">Escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="600" class="fadeInRight">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
       </picture>
@@ -202,6 +204,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugin/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
 
